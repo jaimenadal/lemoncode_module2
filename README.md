@@ -49,7 +49,7 @@ Se ejecutó el comando para iniciar el contenedor en segundo plano:
 docker compose up -d
 [cite_start]``` [cite: 20]
 
-![Reto1: docker compose up -d](./img/reto1_docker_ps.png)
+![Reto1: docker compose up -d](./dockercomposeup.png)
 
 ### 2. Estado del contenedor y red
 [cite_start]Se verificó que el contenedor estuviera corriendo y que la red se hubiera creado correctamente mediante `docker ps` y `docker network ls`[cite: 23, 40].
