@@ -10,10 +10,10 @@ El objetivo de este primer reto fue desplegar una base de datos **MongoDB** util
 
 Para el despliegue se utilizó un archivo `compose.yml` con las siguientes características técnicas:
 
-* [cite_start]**Versión de MongoDB**: Se utilizó la imagen oficial `mongo:8` (estable)[cite: 5].
-* [cite_start]**Red Docker**: Se creó una red de tipo bridge llamada `lemoncode` para aislar el tráfico[cite: 1, 18].
-* [cite_start]**Persistencia**: Se configuró un volumen llamado `mongo_data` mapeado a `/data/db` para garantizar que la información no se pierda al reiniciar el contenedor[cite: 11, 15].
-* [cite_start]**Mapeo de Puertos**: Se expuso el puerto `27017` del contenedor al host local[cite: 9].
+* **Versión de MongoDB**: Se utilizó la imagen oficial `mongo:8` (estable)
+* **Red Docker**: Se creó una red de tipo bridge llamada `lemoncode` para aislar el tráfico
+* **Persistencia**: Se configuró un volumen llamado `mongo_data` mapeado a `/data/db` para garantizar que la información no se pierda al reiniciar el contenedor
+* **Mapeo de Puertos**: Se expuso el puerto `27017` del contenedor al host local
 
 ### Archivo de Configuración (`compose.yml`)
 ```yaml
@@ -37,7 +37,7 @@ volumes:
 networks:
   lemoncode:
     driver: bridge
-[cite_start]``` [cite: 2, 5, 11, 18]
+``` 
 
 ---
 
