@@ -15,7 +15,7 @@ Para el despliegue se utilizó un archivo `compose.yml` con las siguientes carac
 * **Persistencia**: Se configuró un volumen llamado `mongo_data` mapeado a `/data/db` para garantizar que la información no se pierda al reiniciar el contenedor
 * **Mapeo de Puertos**: Se expuso el puerto `27017` del contenedor al host local
 
-### Archivo de Configuración (`compose.yml`)
+### Archivo de Configuración (`docker-compose.yml`)
 ```yaml
 version: "3.9"
 
