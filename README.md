@@ -47,8 +47,7 @@ networks:
 Se ejecutó el comando para iniciar el contenedor en segundo plano:
 ```bash
 docker compose up -d
-[cite_start]``` [cite: 20]
-
+```
 ![Reto1: docker compose up -d](./dockercomposeup.png)
 
 ### 2. Estado del contenedor y red
