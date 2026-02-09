@@ -7,7 +7,7 @@ El objetivo de este primer reto fue desplegar una base de datos **MongoDB** util
 
 ## 🛠️ Configuración del Entorno
 
-Para el despliegue se utilizó un archivo `compose.yml` con las siguientes características técnicas:
+Para el despliegue se utilizó un archivo `docker-compose.yml` con las siguientes características técnicas:
 
 * **Versión de MongoDB**: Se utilizó la imagen oficial `mongo:8` (estable)
 * **Red Docker**: Se creó una red de tipo bridge llamada `lemoncode` para aislar el tráfico
