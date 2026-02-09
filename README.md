@@ -1,7 +1,6 @@
 # lemoncode_module2
 DevOps Bootcamp - Módulo 2: Orquestación de Contenedores (Retos 1-4)
 
-Markdown
 # 🏗️ Reto 1: MongoDB en Contenedor
 
 El objetivo de este primer reto fue desplegar una base de datos **MongoDB** utilizando docker, asegurando la persistencia de los datos y permitiendo que un backend de Node.js ejecutándose en local pudiera realizar operaciones CRUD completas
