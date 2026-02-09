@@ -50,27 +50,31 @@ docker compose up -d
 ![Reto1: docker compose up -d](./dockercomposeup.png)
 
 ### 2. Estado del contenedor y red
-[cite_start]Se verificó que el contenedor estuviera corriendo y que la red se hubiera creado correctamente mediante `docker ps` y `docker network ls`[cite: 23, 40].
-* [cite_start]**Contenedor**: mongo [cite: 25]
-* [cite_start]**Estado**: Up [cite: 26]
-* [cite_start]**Puerto**: 27017 [cite: 27]
+Se verificó que el contenedor estuviera corriendo y que la red se hubiera creado correctamente mediante `docker ps` y `docker network ls`
+* **Contenedor**: mongo
+* **Estado**: Up
+*  **Puerto**: 27017
 
-> **[INSERTA AQUÍ TU CAPTURA DE 'docker ps' Y 'docker network ls']**
+![Reto1: docker red y proceso](./dockerpsynetwork.png)
 
 ---
 
 ## ✅ Conexión del Backend y Pruebas CRUD
 
-[cite_start]Se arrancó el backend en local (`npm start`) configurado para apuntar al MongoDB del contenedor[cite: 31, 32].
+Se arrancó el backend en local (`npm start`) configurado para apuntar al MongoDB del contenedor
 
 ### Logs de conexión exitosa
-[cite_start]El backend confirmó la conexión y la carga de la colección de clases de forma satisfactoria[cite: 35].
+El backend confirmó la conexión y la carga de la colección de clases de forma satisfactoria
 
-> **[INSERTA AQUÍ TU CAPTURA DE LA TERMINAL DE NODE (CONEXIÓN EXITOSA)]**
+![Reto1: backend corriendo](./backendrunning.png)
 
 ### Validación de operaciones (REST Client)
-[cite_start]Se realizaron pruebas CRUD exitosas (GET, POST, PUT, DELETE) utilizando el cliente REST para interactuar con la API en `http://localhost:5000/api/classes`[cite: 32].
+Se realizaron pruebas CRUD exitosas (GET, POST, PUT, DELETE) utilizando el cliente REST para interactuar con la API en `http://localhost:5000/api/classes`
 
-> **[INSERTA AQUÍ TUS CAPTURAS DE POSTMAN/REST CLIENT]**
 
+![Reto1: get ](./get.png)
+![Reto1: post ](./post.png)
+![Reto1: put ](./put.png)
+![Reto1: delete ](./delete.png)
+![Reto1: get2 ](./get2.png)
 ---
