@@ -1,6 +1,3 @@
-# lemoncode_module2
-DevOps Bootcamp - Módulo 2: Orquestación de Contenedores (Retos 1-4)
-
 # 🏗️ Reto 1: MongoDB en Contenedor
 
 El objetivo de este primer reto fue desplegar una base de datos **MongoDB** utilizando docker, asegurando la persistencia de los datos y permitiendo que un backend de Node.js ejecutándose en local pudiera realizar operaciones CRUD completas
@@ -47,7 +44,7 @@ Se ejecutó el comando para iniciar el contenedor en segundo plano:
 ```bash
 docker compose up -d
 ```
-![Reto1: docker compose up -d](./dockercomposeup.png)
+![Reto1: docker compose up -d](/img/dockercomposeup.png)
 
 ### 2. Estado del contenedor y red
 Se verificó que el contenedor estuviera corriendo y que la red se hubiera creado correctamente mediante `docker ps` y `docker network ls`
@@ -55,7 +52,7 @@ Se verificó que el contenedor estuviera corriendo y que la red se hubiera cread
 * **Estado**: Up
 *  **Puerto**: 27017
 
-![Reto1: docker red y proceso](./dockerpsynetwork.png)
+![Reto1: docker red y proceso](/img/dockerpsynetwork.png)
 
 ---
 
@@ -66,15 +63,15 @@ Se arrancó el backend en local (`npm start`) configurado para apuntar al MongoD
 ### Logs de conexión exitosa
 El backend confirmó la conexión y la carga de la colección de clases de forma satisfactoria
 
-![Reto1: backend corriendo](./backendrunning.png)
+![Reto1: backend corriendo](/img/backendrunning.png)
 
 ### Validación de operaciones (REST Client)
 Se realizaron pruebas CRUD exitosas (GET, POST, PUT, DELETE) utilizando el cliente REST para interactuar con la API en `http://localhost:5000/api/classes`
 
 
-![Reto1: get ](./get.png)
-![Reto1: post ](./post.png)
-![Reto1: put ](./put.png)
-![Reto1: delete ](./delete.png)
-![Reto1: get2 ](./get2.png)
+![Reto1: get ](/img/get.png)
+![Reto1: post ](/img/post.png)
+![Reto1: put ](/img/put.png)
+![Reto1: delete ](/img/delete.png)
+![Reto1: get2 ](/img/get2.png)
 ---
