@@ -7,16 +7,6 @@ Dockerizar el backend Node.js, ejecutarlo en un contenedor conectado a MongoDB m
 
 ## 1. Dockerfile
 
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-EXPOSE 5000
-CMD ["npm", "start"]
-
-```
 ![Dockerfile](/img/dockerfile-reto2.png)
 
 ##  2. Construcción de la imagen
