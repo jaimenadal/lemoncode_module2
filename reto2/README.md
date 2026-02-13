@@ -13,7 +13,7 @@ Dockerizar el backend Node.js, ejecutarlo en un contenedor conectado a MongoDB m
 
 docker build -t lemoncode-backend .
 ### 🐳 Docker Build
-![Docker Build](/img/docker-build.png)
+![Docker Build](/img/dockerbuild-reto2-1.png)
 
 
 ##  3. Ejecución del contenedor y comprobación
