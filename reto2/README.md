@@ -17,7 +17,7 @@ EXPOSE 5000
 CMD ["npm", "start"]
 
 ```
-![Dockerfile](/img/Captura desde 2026-02-12 16-46-44.png)
+![Dockerfile](/img/dockerfile-reto2.png)
 
 ##  2. Construcción de la imagen
 
