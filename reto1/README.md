@@ -56,7 +56,7 @@ Se verificó que el contenedor estuviera corriendo y que la red se hubiera cread
 
 ---
 
-## ✅ Conexión del Backend y Pruebas CRUD
+## 3. Ejecutar el backend localmente conectándose al nuevo MongoDB
 
 Se arrancó el backend en local (`npm start`) configurado para apuntar al MongoDB del contenedor
 
@@ -65,7 +65,7 @@ El backend confirmó la conexión y la carga de la colección de clases de forma
 
 ![Reto1: backend corriendo](/img/backendrunning.png)
 
-### Validación de operaciones (REST Client)
+### 4. Validación de operaciones (Postman)
 Se realizaron pruebas CRUD exitosas (GET, POST, PUT, DELETE) utilizando el cliente REST para interactuar con la API en `http://localhost:5000/api/classes`
 
 
