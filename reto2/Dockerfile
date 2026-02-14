@@ -14,5 +14,9 @@ COPY . .
 # Exponemos el puerto que utiliza la API
 EXPOSE 5000
 
+# Definimos la variable de entorno para la conexión a MongoDB
+# "mongo" es el nombre del servicio/contenedor de la base de datos
+ENV MONGODB_URL=mongodb://mongo:27017/
+
 # Comando para arrancar la aplicación
 CMD ["npm", "start"]
