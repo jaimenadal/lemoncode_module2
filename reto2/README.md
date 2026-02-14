@@ -40,5 +40,5 @@ docker run -d --name backend --network node-stack_lemoncode -p 5000:5000 -e DATA
 
 ##  5. Exponerse el puerto 5000 para que sea accesible
 
-![API](/img/verificandoapi.png)
+![API](/img/validandoapi.png)
 ![logs](/img/dockerlogs-reto2.png)
