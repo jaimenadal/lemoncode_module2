@@ -39,6 +39,6 @@ docker run -d --name backend --network node-stack_lemoncode -p 5000:5000 -e DATA
 
 
 ##  4. Verificar que se conecta correctamente a MongoDB
-![Docker logs](/img/dockerlogs-reto2-2.png)
+![Docker logs](/img/dockerlogs-reto2-1.png)
 
 
