@@ -36,3 +36,9 @@ docker build -t lemoncode-backend .
 ##  3. Ejecución del contenedor y comprobación
 docker run -d --name backend --network node-stack_lemoncode -p 5000:5000 -e DATABASE_NAME=LemoncodeCourseDb lemoncode-backend
 ![Docker Run +ps](/img/dockerrunps.png)
+
+
+##  4. Verificar que se conecta correctamente a MongoDB
+![Docker logs](/img/dockerlogs-reto2.png)
+
+
