@@ -35,4 +35,4 @@ docker build -t lemoncode-backend .
 
 ##  3. Ejecución del contenedor y comprobación
 docker run -d --name backend --network node-stack_lemoncode -p 5000:5000 -e DATABASE_NAME=LemoncodeCourseDb lemoncode-backend
-
+![Docker Run +ps](/img/dockerrunps.png)
