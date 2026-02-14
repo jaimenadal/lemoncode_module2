@@ -27,8 +27,7 @@ CMD ["npm", "start"]
 
 docker build -t lemoncode-backend .
 ### 🐳 Docker Build
-![Docker Build](/img/dockerbuild-reto2-1.png)
-![Docker Build2](/img/dockerbuild-reto2-2.png)
+![Docker Build](/img/dockerbuild-reto2-def.png)
 
 
 ##  3. Ejecución del contenedor y comprobación
