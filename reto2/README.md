@@ -20,8 +20,6 @@ COPY . .
 
 EXPOSE 5000
 
-ENV MONGODB_URL=mongodb://mongo:27017/
-
 CMD ["npm", "start"]
 ```
 
