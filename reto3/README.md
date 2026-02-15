@@ -56,5 +56,5 @@ http://topics-api:5000/api/classes
 
 Por este motivo, se cambió el nombre del contenedor backend a `topics-api` para cumplir exactamente con lo solicitado en el enunciado y permitir la correcta resolución DNS dentro de la red docker.
 
-Este cambio asegura que el frontend pueda resolver correctamente el hostname `topics-api` dentro de `lemoncode-network`.
+Este cambio asegura que el frontend pueda resolver correctamente el hostname `topics-api` dentro de la red `node-stack_lemoncode`.
 
