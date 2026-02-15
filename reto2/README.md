@@ -24,9 +24,9 @@ CMD ["npm", "start"]
 ```
 
 ##  2. Construcción de la imagen
-
-docker build -t lemoncode-backend .
 ### 🐳 Docker Build
+docker build -t lemoncode-backend .
+
 ![Docker Build](/img/dockerbuild-reto2-def.png)
 
 
