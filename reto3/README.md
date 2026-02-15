@@ -41,3 +41,20 @@ docker run -d --name frontend --network node-stack_lemoncode -p 3000:3000 --env-
 4. **Archivo `.env` con variables de entorno**  
    ```env
    API_URL=http://topics-api:5000/api/classes
+
+
+
+   ---
+
+## 🔎 Notas adicionales
+
+Durante la implementación fue necesario modificar el nombre del contenedor del backend.
+
+En el reto anterior el backend fue creado con el nombre `backend`, pero en este reto el enunciado especifica que el frontend debe conectarse a:
+
+http://topics-api:5000/api/classes
+
+Por este motivo, se cambió el nombre del contenedor backend a `topics-api` para cumplir exactamente con lo solicitado en el enunciado y permitir la correcta resolución DNS dentro de la red Docker.
+
+Este cambio asegura que el frontend pueda resolver correctamente el hostname `topics-api` dentro de `lemoncode-network`.
+
