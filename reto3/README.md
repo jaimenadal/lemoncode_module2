@@ -45,6 +45,7 @@ docker run -d --name frontend --network node-stack_lemoncode -p 3000:3000 --env-
 
 5. **Verificación de conectividad con el backend**
 ![Verificar conect](/img/verify-reto3.png)
+![Verificar conect](/img/verify2-reto3.png)
 
 
 ## 🔎 Notas adicionales
