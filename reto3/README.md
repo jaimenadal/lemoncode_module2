@@ -30,4 +30,3 @@ CMD ["node", "server.js"]
 2. **Archivo `.env` con variables de entorno**  
    ```env
    API_URL=http://topics-api:5000/api/classes
-
