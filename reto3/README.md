@@ -29,10 +29,14 @@ CMD ["node", "server.js"]
 2. **Comando para construir la imagen del frontend**  
 
 docker build -t frontend .
+![Docker Build](/img/dockerbuild-reto3.png)
+
 
 3. **Comando para ejecutar el contenedor del frontend**  
 
 docker run -d --name frontend --network node-stack_lemoncode -p 3000:3000 --env-file .env lemoncode-frontend
+
+![Docker run](/img/dockerrun-reto3.png)
 
 4. **Archivo `.env` con variables de entorno**  
    ```env
