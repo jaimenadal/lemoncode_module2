@@ -26,11 +26,11 @@ EXPOSE 3000
 # Comando para iniciar el servidor
 CMD ["node", "server.js"]
 ```
-2. ** Comando para construir la imagen del frontend**  
+2. **Comando para construir la imagen del frontend**  
 
 docker build -t frontend .
 
-3. ** Comando para ejecutar el contenedor del frontend*  
+3. **Comando para ejecutar el contenedor del frontend**  
 
 docker run -d --name frontend --network node-stack_lemoncode -p 3000:3000 --env-file .env lemoncode-frontend
 
