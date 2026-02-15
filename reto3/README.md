@@ -36,7 +36,7 @@ docker build -t frontend .
 
 docker run -d --name frontend --network node-stack_lemoncode -p 3000:3000 --env-file .env lemoncode-frontend
 
-![Docker run](/img/dockerrun-reto3.png)
+![Docker run](/img/dockerun-reto3.png)
 
 4. **Archivo `.env` con variables de entorno**  
    ```env
