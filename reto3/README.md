@@ -41,7 +41,7 @@ docker run -d --name frontend --network node-stack_lemoncode -p 3000:3000 --env-
 4. **Archivo `.env` con variables de entorno**  
    ```env
    API_URL=http://topics-api:5000/api/classes
-
+  ```
 
 5. **Verificación de conectividad con el backend**
 ![Verificar conect](/img/verify-reto3.png)
