@@ -66,7 +66,7 @@ El backend confirmó la conexión y la carga de la colección de clases de forma
 ![Reto1: backend corriendo](/img/backendrunning.png)
 
 ### 4. Validación de operaciones (Postman)
-Se realizaron pruebas CRUD exitosas (GET, POST, PUT, DELETE) utilizando el cliente REST para interactuar con la API en `http://localhost:5000/api/classes`
+Se realizaron pruebas CRUD exitosas (GET, POST, PUT, DELETE) utilizando Postman para interactuar con la API en `http://localhost:5000/api/classes`
 
 
 ![Reto1: get ](/img/get.png)
