@@ -25,13 +25,16 @@ CMD ["npm", "start"]
 
 ##  2. Construcción de la imagen
 ### 🐳 Docker Build
+```bash
 docker build -t lemoncode-backend .
-
+```
 ![Docker Build](/img/dockerbuild-reto2-def.png)
 
 
 ##  3. Ejecución del contenedor y comprobación
+```bash
 docker run -d --name backend --network node-stack_lemoncode -p 5000:5000 -e DATABASE_URL=mongodb://mongo:27017 -e DATABASE_NAME=LemoncodeCourseDb lemoncode-backend
+```
 ![Docker Run +ps](/img/dockerrunpslogs.png)
 
 
