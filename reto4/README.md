@@ -78,13 +78,15 @@ API_URL=http://topics-api:5000/api/classes
 ```
 
 ## 3. Comando docker-compose up ejecutándose exitosamente
-
+```bash
 docker compose up -d --build
-
+```
 ![Docker Compose up](/img/reto4-compose-up.png)
 
 ## 4. Captura de pantalla de todos los servicios corriendo (docker-compose ps)
+```bash
 docker compose ps
+```
 Comprueba que los tres servicios (mongo, topics-api, frontend) están activos.
 
 ![servicios corriendo](/img/reto4-compose-ps.png)
